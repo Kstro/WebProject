@@ -1,0 +1,27 @@
+.tabla-test{
+	width: 90%;
+	
+	margin: 0 auto;
+}
+	
+
+	.tabla-test tbody tr td:first-child{
+		text-align: left;
+		
+	}
+
+	.tabla-test tbody tr td:last-child{
+		text-align: right;
+		
+	}
+
+	.contenido-tabla-forms{
+		padding: 10px;
+	}
+
+/*#enviar-test{
+	float: right;	
+	background: #C2C2C2;
+	height: 30px;
+	border: 1px solid black;
+}*/

@@ -1,0 +1,319 @@
+body {
+    font-family: 'Anaheim', sans-serif, Arial, Helvetica;
+    min-width: 1000px;
+    
+    margin: 0px;
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body {
+  height: 100%;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a:hover, a:active, a:focus{
+    outline: 0;
+}
+
+header {
+    position: relative;
+    width: 70%;
+    min-width: 1000px;
+    height: 300px;
+    margin: 0 auto
+    
+}
+
+.encabezadosiov img{
+    height: 300px;
+    width: 100%;
+}
+
+/* Estilos del login, página principal*/
+    
+
+#acceso{
+    position: absolute;
+    width: 100%;
+    min-width: 1000px;
+    height: 20px;
+    background: url(../imagenes/boton srsino.png);
+    float: right;
+}
+
+    #acceso div{
+        position: relative;
+        float: right;
+        right: 10px;
+        width: 130px;
+        margin-top: 10px;
+        padding-top: 8px;
+        padding-left: 15px;
+        height: 35px;
+        vertical-align: middle;
+        background-image: url("../imagenes/boton sesion.png") ;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 100% 100%;
+        
+    }
+
+ 
+
+
+
+    #acceso a:link{
+        color: white;
+        text-decoration: none;
+    }
+
+    #acceso a:hover{
+        color: white;
+        opacity: 0.5;
+    }
+
+    #acceso a:visited{
+        color: white;
+    }
+
+/* Div de contenidos, página principal*/
+
+    #area_trabajo {
+        width: 70%;
+        
+        min-height: 397px;
+        min-width: 1000px;        
+        margin: 0 auto;
+    
+    }    
+
+    
+    #area_trabajo_login {
+        width: 70%;
+        height: 473px;
+        min-height: 473px;
+
+        min-width: 1000px;        
+        margin: 0 auto;
+    
+    }
+
+
+
+
+/* Tabla de contenidos, página principal*/
+
+#tablacontenidos {
+    
+    width: 100%;   
+    height: 100%;
+    border-collapse: separate;
+    padding-top: 5%;
+    border-spacing: 40px 0px;
+    
+
+}
+
+
+    #tablacontenidos img{
+        height: 200px;
+        width: 100%;
+        min-width: 100px;
+    }
+
+
+    #tablacontenidos tr{
+        border-spacing: 20px;
+    }
+
+ /*   #tablacontenidos tr:first-child{
+        
+        height: 10px;
+        font-size: 20px;
+        color: white;
+    }*/
+
+    
+
+        #tablacontenidos th{
+            height: 50px;
+            
+            vertical-align: middle;
+            padding-bottom: 30px;
+        }
+
+        #tablacontenidos td{
+            width: 25%;
+            min-width: 200px;
+            text-align: center; 
+            vertical-align: middle;
+        }
+
+
+    #tablacontenidos tr:last-child{
+        background: #DCDCDC;
+        height: 100px;
+    }
+
+    #tablacontenidos a{
+        color: white;
+        text-decoration: none;
+    }
+
+        #tablacontenidos a:hover{
+            opacity: 0.6;   
+        }
+
+#enlaces{
+    
+    width: 100%;    
+    height: 25px;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+    margin-top: -25px;
+    font-weight: bold;
+}
+
+    #enlaces div{
+        width: 25%;
+        height: 100%;
+        color: white;
+        float: left;
+        
+    }
+
+    #enlaces div{        
+        height: 10px;
+        font-size: 20px;
+        color: white;
+    }
+
+    #enlaces a:link, a:visited{
+        color: white;
+        text-decoration: none;
+    }
+
+    #enlaces a:hover{
+        opacity: 0.6;
+    }
+
+/* Estilos de pie de página */
+
+footer {
+    width: 70%;
+    min-width: 1000px;
+    
+    height: 10%;
+    margin: 0 auto; 
+    font-family: 'Roboto', Arial;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #727272;
+    
+    
+}
+
+
+
+    footer a, footer a:hover, footer a:visited, footer a:active{
+        text-decoration: none;
+        color: #3B97D6;
+    }
+
+    .footer1{
+        background: #F8931F;
+        height: 90%;
+        min-height: 80px;
+    }
+    .footer2 {
+        background: #0071BD;
+        height: 25%;
+        color: white;
+        font-weight: bold;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .piepagsiov {
+        margin-top: 5px;
+        float: right;
+    }
+
+    .piepagsiov img {
+        height: 80%;
+        width: 80%;
+        margin: auto;
+    }
+
+#cargando{
+    width: 100%;
+    /*background:red;*/
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+}
+
+    #cargando img{
+        text-align: center;
+        /*background:yellow;*/
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 20px;
+        width: 20px;
+        margin: auto;
+        vertical-align: middle;
+}

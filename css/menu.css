@@ -1,0 +1,58 @@
+/****************** ESTILO MENU PRINCIPAL*****************/
+/*INICIO*/
+
+.menu {
+	font-family: Helvetica, Arial, sans-serif;
+	list-style: none;
+	text-decoration: none;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #D6D6D6;
+	font-family: 'Istok Web', sans-serif;
+	font-style: normal;
+	line-height: normal;
+	background: yellow;
+	z-index: 10;
+	position: absolute;
+	
+}
+
+/*Quitar vineta*/
+.menu{
+	list-style:none;
+}
+
+.menu > li {
+	float: left;
+}
+
+.menu li a {
+	background: #f0740d;
+	color: #FFF;
+	display: block;
+	border: 1px solid;
+	padding-top: 2px;
+	padding-right: 12px;
+	padding-bottom: 5px;
+	padding-left: 12px;
+	text-decoration: none;
+	
+}
+
+.menu li a:hover{
+	background:#0fbfc6;
+}
+
+/*ocultando submenus*/
+.menu li ul {
+	display:none;
+	position:absolute;
+	min-width:135px;
+	list-style:none;
+}
+
+.menu li:hover > ul {
+	display:block;
+}
+
+/*FIN ESTILO MENU PRINCIPAL*/

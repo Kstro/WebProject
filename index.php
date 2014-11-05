@@ -7,26 +7,99 @@
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
-<link href="css/frontend.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="/js/cargasenlaces.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
 <link href='http://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'> <!-- link de google.fonts --> 
+
 
 </head>
 <body>
-<div class="container">
-  <div class="header"> 
-    <?php include('php/encabezado.php'); ?>
-    <?php include('php/menu.php'); ?>
-    <!-- end .header --></div>
-  
-  <div class="content"><!-- InstanceBeginEditable name="Contenido" -->Contenido<!-- InstanceEndEditable -->
-    <!-- end .content --></div>
+
+ 
+
+<header>
+    <div class="header"> 
+    <div id="acceso">
+      <div>
+        <a href="paginas/login.php">Iniciar sesión</a>
+      </div>
+    </div>
+    <?php include('php/encabezadoppal.php'); ?>
+    <?php /*include('php/menu.php');*/ ?>
+    <!-- end .header -->
+
+  </div>
+</header>
+
+
+
+
+<div id="area_trabajo">
+    <div id="enlaces">
+      <div><a href="">BACHILLERATOS</a>
+      
+      </div>
+      <div>
+        <a href="">UNIVERSIDADES</a>
+      </div>
+      <div>
+        <a href="">MANUALES</a>
+      </div>
+      <div>
+        <a href="">VIDEOJUEGO</a>
+      </div>
+    </div>
+    <div>
+    <table id="tablacontenidos">
+      
+
+      <tr>
+        <td>
+          <img src="imagenes/bachilleratos.png">
+        </td>
+        <td>
+          <img src="imagenes/universidades.png">
+        </td>
+        <td>
+          <img src="imagenes/manuales.png">
+        </td>
+
+        <td>
+          <img src="imagenes/videojuegos.png">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          Conoce las diferentes especialidades de bachillerato y las instituciones que las imparten
+        </td>
+        <td>
+          Conoce las opciones de universidades y las carreras que ofrecen
+        </td>
+        <td>
+          Descubre todas las bondades de SIOV
+        </td>
+
+        <td>
+          Prueba nuestro demo de videojuego, es una opción divertida de conocer tu opción vocacional
+        </td>
+      </tr>
+    </table> 
+    </div>
+</div>
+
+<footer>
   <div class="footer1">
     <?php include('php/pie_pagina.php'); ?>
+
     <!-- end .footer --></div>
   <div class="footer2">
-    
+    Derechos reservados 2014
     <!-- end .footer --></div>  
-    
-<!-- end .container --></div>
+</footer>
+  
+  
 </body>
 <!-- InstanceEnd --></html>

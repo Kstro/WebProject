@@ -32,7 +32,7 @@
              		<li><a href="#"> Carreras </a></li>
              		<li><a href="#"> Categoría test </a></li>
              		<li><a href="#"> Departamento </a></li>
-             		<li><a href="#"> Instituciones </a></li>
+             		<li><a href="../paginas/instituciones/listado.php"> Instituciones </a></li>
              		<li><a href="#"> Municipios </a></li>
              		<li><a href="#"> Pregunta </a></li>
              		<li><a href="#"> Roles usuario </a></li>
